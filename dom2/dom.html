@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Item lister</h1>
+        <div class="search">
+            <input type="text" id="filter" placeholder="Search Items">
+        </div>
+    </header>
+
+    <div class="form">
+        <h1>Add items</h1>
+        <div class="msg"></div>
+        <div class="input">
+            <form id="my-form" class="form-input" action="">
+                <div >
+                    <input type="text" id="item">
+                    <input type="submit" value="Submit" class="btn">
+                </div>
+            </form>
+            <h2 class="title">Items</h2>
+
+            <ul id="items" class="list-group">
+                <div class="flex"><li class="list-group-items">item1</li> <button class="delbutton">x</button></div>
+                <div class="flex"><li class="list-group-items">item1</li> <button class="delbutton">x</button></div>
+                <div class="flex"><li class="list-group-items">item1</li> <button class="delbutton">x</button></div>
+                <div class="flex"><li class="list-group-items">item1</li> <button class="delbutton">x</button></div>
+                <div class="flex"><li class="list-group-items">item1</li> <button class="delbutton">x</button></div>
+            </ul>
+        </div>
+        
+    </div>
+    <script src="dom.js"></script>
+</body>
+</html>

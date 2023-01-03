@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin-bottom: 2%;
+    background: rgb(15, 220, 15);
+    padding:2% 6%;
+    color: #fff;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header input{
+    padding: 5%;
+    border-radius: 5px;
+}
+
+
+.form{
+    padding: 0 6%;
+}
+.form h1{
+    margin-bottom: 2%;
+}
+.form input {
+    padding: 5px;
+    border-radius: 5px;
+    /* border: none; */
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 2%;
+
+    
+    
+}
+ul{
+    width: 300px;
+}
+.form ul .flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form ul .flex .delbutton{
+    background: red;
+    border: none;
+    padding: 2%;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+/* .form-input{
+    border: 1px solid black;
+    display: flex;
+    align-content: flex-end;
+    align-items: center;
+    border-radius: 5px;
+} */
+.btn{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.error{
+    background: orangered;
+    width: 100%;
+    color: #fff;
+    padding: 5px;
+    margin-bottom: 3%;
+}
+.form ul{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form ul li{
+    list-style-type: none;
+    
+}
+
+@media screen and (max-width:800px) {
+    header{
+        margin-bottom: 10%;
+    }
+    .form{
+        height: auto;
+    }
+    form{
+        gap: 20px;
+    }
+}
